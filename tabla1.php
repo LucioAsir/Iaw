@@ -1,6 +1,6 @@
 <HTML>
 <HEAD>
-   <TITLE>Actividad 1 - Tabla de divisores</TITLE>
+   <TITLE>Actividad 1 - Creación dinámica de una tabla</TITLE>
 </HEAD>
 <BODY>
 
@@ -9,7 +9,7 @@ print ("<TABLE BORDER='1'>\n");
 
 // Primera fila de la tabla (50-60)
 print ("<TR>\n");
-print ("<TD BGCOLOR='#5935fa'>&nbsp;</TD>\n");
+print ("<TD BGCOLOR='#6699FF'>&nbsp;</TD>\n");
 for ($j=50; $j<=60; $j++)
 {
    print ("<TD BGCOLOR='#CC99FF'>$j</TD>\n");
